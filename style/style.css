@@ -1,15 +1,15 @@
 
 @font-face {
     font-family: 'tan'; /*a name to be used later*/
-    src: url('/fonts/tanspring.otf'); /*URL to font*/
+    src: url('../fonts/tanspring.otf'); /*URL to font*/
 }
 @font-face {
     font-family: 'glinster'; /*a name to be used later*/
-    src: url('/fonts/glinster.otf'); /*URL to font*/
+    src: url('../fonts/glinster.otf'); /*URL to font*/
 }
 @font-face {
     font-family: 'glitten'; /*a name to be used later*/
-    src: url('/fonts/glitten-all-caps.regular.otf'); /*URL to font*/
+    src: url('../fonts/glitten-all-caps.regular.otf'); /*URL to font*/
 }
 @media (min-width:900px) {
     body {
@@ -115,17 +115,17 @@ body.home {
     overflow-x:hidden;
 }
 body.crew {
-    background: url('/images/crew.png') center center fixed no-repeat;
+    background: url('../images/crew.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
 body.travel {
-    background: url('/images/travel.png') center center fixed no-repeat;
+    background: url('../images/travel.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
 body.construction {
-    background: url('/images/construction.png') center center fixed no-repeat;
+    background: url('../images/construction.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
