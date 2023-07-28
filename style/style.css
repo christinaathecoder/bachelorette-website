@@ -112,17 +112,20 @@ h6 {
 body.home {
     background: url('../images/home.png') center center fixed no-repeat;
     background-size: cover;
+    overflow-y:auto;
     overflow-x:hidden;
 }
 body.crew {
     background: url('../images/crew.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
+    overflow-y:auto;
 }
 body.travel {
     background: url('../images/travel.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
+    overflow-y:auto;
 }
 body.construction {
     background: url('../images/construction.png') center center fixed no-repeat;
