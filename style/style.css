@@ -11,6 +11,12 @@
     font-family: 'glitten'; /*a name to be used later*/
     src: url('/fonts/glitten-all-caps.regular.otf'); /*URL to font*/
 }
+@media (min-width:900px) {
+    body {
+        height:100vh;
+        overflow:hidden;
+    }
+}
 .navbar {
     overflow: hidden;
   }
