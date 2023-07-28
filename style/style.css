@@ -1,0 +1,198 @@
+
+@font-face {
+    font-family: 'tan'; /*a name to be used later*/
+    src: url('/fonts/TAN\ -\ SPRING.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'glinster'; /*a name to be used later*/
+    src: url('/fonts/glinster.otf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'glitten'; /*a name to be used later*/
+    src: url('/fonts/glitten-all-caps.regular.otf'); /*URL to font*/
+}
+.navbar {
+    overflow: hidden;
+  }
+  
+.navbar a {
+    float: none;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    font-size: .75em;
+    color: black;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+}
+  
+.dropdown { 
+    display:inline-block;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    letter-spacing: .35em;
+    font-size: .75em;
+    background-color: inherit;
+    margin: 3px;
+    float:none;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    font-style:italic;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin:0;
+    padding:.5em;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+h1 {
+    font-family: 'tan';
+    font-size: 10em;
+    letter-spacing: -.1em;
+    padding:0;
+    margin:.1em;
+    text-align: center;
+}
+h2 {
+    font-family: 'glinster';
+    font-size:8em;
+    text-transform: lowercase;
+    text-align: center;
+    letter-spacing: -.03em;
+    line-height: 1.3em;
+    margin:0;
+}
+h3 {
+    font-family: 'tan';
+    font-size: 8em;
+    letter-spacing: -.08em;
+    padding:0;
+    margin:.1em;
+    text-align: center;
+    line-height:0;
+}
+h6 {
+    font-family: 'Roboto';
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .75em;
+}
+body.home {
+    background: url('/images/home-bg.png') center center fixed no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
+body.crew {
+    background: url('/images/crew-bg.png') center center fixed no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
+body.travel {
+    background: url('/images/travel.png') center center fixed no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
+body.construction {
+    background: url('/images/contruction-bg.png') center center fixed no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
+.container {
+    background-color: rgb(232, 231, 229);
+}
+.vline {
+    border-left: 6px solid black;
+    height:200px;
+    position:relative;
+    left:50%;
+    margin-left: -3px;
+}
+.container div {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: auto;
+    margin: auto;
+    border-radius: 2em;
+    margin-top: 4em;
+    box-shadow: 5px 5px 10px #7b7b7b;
+}
+.title {
+    padding-top:2.3em;
+}
+div {
+    text-align: center;  
+    padding: 15px;  
+    margin-top: 1em;
+}
+p#gs {
+    font-family: 'glinster';
+    font-size: 7em;
+    letter-spacing:-.07em;
+    padding: .5em 0 0 0;
+    margin: 0 0;
+}
+p#gl {
+    font-family: 'glitten';
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+p#tan{
+    padding:0 0;
+    margin:0 0;
+    font-family: 'tan';
+    font-size: 12em;
+    letter-spacing:-.1em;
+    line-height: .75em;
+}
+img#crew {
+    display: block;
+    padding: 1.5em 0;
+    width: 300px;
+    height:350px;
+    filter: drop-shadow(5px 5px 5px #535353);
+}
+figure {
+    display:inline-block;
+}
+figcaption#title {
+    font-family: 'tan';
+    letter-spacing: -.1em;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+figcaption#sub {
+    font-family: 'glitten';
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+footer {
+    text-align: center;
+    padding:3em;
+    margin:3em 0 0 0;
+}
