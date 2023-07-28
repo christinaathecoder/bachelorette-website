@@ -104,7 +104,7 @@ h6 {
     letter-spacing: .75em;
 }
 body.home {
-    background: url('/images/home.png') center center fixed no-repeat;
+    background: url('../images/home.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
