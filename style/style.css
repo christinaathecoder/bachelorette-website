@@ -104,12 +104,12 @@ h6 {
     letter-spacing: .75em;
 }
 body.home {
-    background: url('/images/home-bg.png') center center fixed no-repeat;
+    background: url('/images/home.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
 body.crew {
-    background: url('/images/crew-bg.png') center center fixed no-repeat;
+    background: url('/images/crew.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
@@ -119,7 +119,7 @@ body.travel {
     overflow-x:hidden;
 }
 body.construction {
-    background: url('/images/contruction-bg.png') center center fixed no-repeat;
+    background: url('/images/construction.png') center center fixed no-repeat;
     background-size: cover;
     overflow-x:hidden;
 }
