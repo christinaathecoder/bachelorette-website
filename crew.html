@@ -9,20 +9,34 @@
 </head>
 <html>
 <body class="crew">
-    <div class="navbar" id="nav">
-        <a href="index.html">home</a>
-        <a href="crew.html" class="active">crew</a>
-        <a href="construction.html">travel</a>
-        <a href="itinerary">itinerary</a>
-        <a href="outfits">outfits</a>
-        <a href="construction.html">activities</a>
-        <a href="construction.html">cost</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
+    <section class="navigation">
+        <div class="nav-container">
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="crew.html">crew</a></li>
+                    <li><a href="construction.html">travel</a></li>
+                    <li><a href="#">itinerary</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#!">thursday</a></li>
+                            <li><a href="#!">friday</a></li>
+                            <li><a href="#!">saturday</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#!">outfits</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="#!">thursday</a></li>
+                            <li><a href="#!">friday</a></li>
+                            <li><a href="#!">saturday</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
     <div class="title">
-        THE CREW
+        <h1>THE CREW</h1>
     </div>
     <div class="container">
         <figure>
@@ -59,6 +73,7 @@
     <footer class="crew">
         <h6>copyright &copy; 2023 christinaathecoder</h6>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
