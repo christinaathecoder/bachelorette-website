@@ -202,7 +202,7 @@ body.home {
 body.crew {
     background-image: url('../images/crew.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
