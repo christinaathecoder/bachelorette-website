@@ -340,7 +340,7 @@ footer {
     html, body {
         overflow-x:hidden !important;
         max-width: 100% !important;
-        background-size: 100% !important;
+        background-size: cover !important;
     }
     #crew, #outfits {
         width:100% !important;
