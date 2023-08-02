@@ -177,6 +177,11 @@ h4 {
     font-size: 2vw;
     letter-spacing: .75vw;
 }
+h5 {
+    font-family: 'glitten';
+    font-size: 3vw;
+    letter-spacing: normal;
+}
 h6 {
     font-family: 'Roboto';
     font-weight: 100;
@@ -290,12 +295,16 @@ p#gl {
     display: inline-block;
     margin: 10px 5px;
 }
-img#crew {
+img {
     display: block;
-    padding: 1.5em 0;
+    padding: 10px;
     width: 300px;
     height:350px;
     filter: drop-shadow(5px 5px 5px #535353);
+}
+#outfits {
+    width: 250px;
+    height:325px;
 }
 figure {
     display:inline-block;
@@ -357,7 +366,7 @@ footer {
     .border-container {
         background-color:white;
         margin: 5px;
-        padding: 5px;
+        padding: 5px 10px;
     }
     h2 {
         font-size:70px;
@@ -368,7 +377,10 @@ footer {
         letter-spacing: -5px;
     }
     h4 {
-        font-size: 12px;
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 25px;
     }
     h6 {
         font-size: 12px;
