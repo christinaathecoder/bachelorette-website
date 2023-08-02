@@ -11,53 +11,22 @@
     font-family: 'glitten'; /*a name to be used later*/
     src: url('../fonts/glitten-all-caps.regular.otf'); /*URL to font*/
 }
-/* .navbar {
-    overflow: hidden;
+body {
+    margin-bottom: 0;
+    overflow-y: auto;
+    overflow-x:hidden;
 }
-.navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-family:'roboto';
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    font-size: 1vw;
-}
-.navbar a:hover {
-    color: black;
-    font-style:italic;
-}
-.navbar a.active {
-    color: black;
-    font-weight:700;
-    font-size:1vw;
-}
-.navbar .icon {
-    display: none;
-} */
 .navigation {
     height: 70px;
     background-color: none;
 }
-/* .brand {
-    position: absolute;
-    padding-left: 10vw;
-    float: left;
-}
-.brand a, .brand a:visited {
-    color: black;
-    text-decoration: none;
-} */
 .nav-container {
   max-width: 100%;
   margin: 0 auto;
 }
 nav {
     float: none;
-    display:inline-block;
+    display: inline-block;
 }
 nav ul {
     list-style: none;
@@ -69,14 +38,12 @@ nav ul li {
     position: relative;
 }
 nav ul li a, nav ul li a:visited {
+    font: .75em/70px 'roboto';
     display: block;
     padding: 0 20px;
-    line-height: 70px;
     background: none;
     color: black;
     text-decoration: none;
-    font-family: 'roboto';
-    font-size: .75em;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -95,7 +62,7 @@ nav ul li ul li a {
     line-height: 20px;
 }
 .active {
-    font-weight:700;
+    font-weight: 700;
 }
 .nav-dropdown {
   position: absolute;
@@ -150,101 +117,67 @@ nav ul li ul li a {
     transform: rotate(-45deg);
 }
 h1 {
-    font-family: 'tan';
-    font-size: 10em;
+    font: 10em 'tan';
     letter-spacing: -.1em;
     text-align: center;
 }
 h2 {
-    font-family: 'glinster';
-    font-size: 12em;
+    font: 12em/1.3em 'glinster';
     text-transform: lowercase;
     text-align: center;
     letter-spacing: -.03em;
-    line-height: 1.3em;
     margin:0;
 }
 h3 {
-    font-family: 'tan';
-    font-size: 12em;
+    font: 12em/0 'tan';
     letter-spacing: -.08em;
     padding:0;
     margin:.1em;
     text-align: center;
-    line-height:0;
 }
 h4 {
-    font-family: 'Roboto';
-    font-weight: 700;
+    font: 700 2em 'Roboto';
     text-transform: uppercase;
-    font-size: 2em;
     letter-spacing: 2px;
 }
 h5 {
-    font-family: 'glitten';
-    font-size: 3em;
+    font: 3em 'glitten';
     letter-spacing: normal;
 }
 h6 {
-    font-family: 'Roboto';
-    font-weight: 100;
+    font: 100 1em 'Roboto';
     text-transform: uppercase;
-    font-size: 1em;
     letter-spacing: 1px;
 }
-body.home {
-    background: url('../images/home.png') center center fixed no-repeat;
-    background-size: cover;
-    overflow-y:auto;
-    overflow-x:hidden;
-    margin:0;
-}
-/* body.crew {
-    background-image: url('../images/crew.png');
-    background-size: cover;
-    background-repeat: repeat-y;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    overflow-x:hidden;
-    margin:0;
-} */
-#background {
-    z-index: -1;
-    background-image: url('../images/crew.png');
+.bg {
     height: 100vh;
     width: 100vw;
     position: fixed;
     background-size: cover;
     background-position: center;
     margin:-10px !important;
+    z-index: -1;
 }
-body.travel {
-    background: url('../images/travel.png') center center fixed no-repeat;
-    background-size: cover;
-    overflow-x:hidden;
-    overflow-y:auto;
-    margin:0;
+.bg#crew {
+    background-image: url('../images/crew.png');
 }
-body.construction {
-    background: url('../images/construction.png') center center fixed no-repeat;
-    background-size: cover;
-    overflow-x:hidden;
+.bg#home {
+    background-image: url('../images/home.png');
 }
-body.miami-vice {
-    background: url('../images/miami-vice.png') center center fixed no-repeat;
-    background-size: cover;
-    overflow-x:hidden;
+.bg#travel{
+    background-image: url('../images/travel.png');
 }
-body.diamonds {
-    background: url('../images/diamonds.png') center center fixed no-repeat;
-    background-size: cover;
-    overflow-x:hidden;
+.bg#construction {
+    background-image: url('../images/construction.png');
 }
-body.barbie {
-    background: url('../images/barbie.png') center center fixed no-repeat;
-    background-size: cover;
-    overflow-x:hidden;
+.bg#miami-vice {
+    background: url('../images/miami-vice.png');
+}
+.bg#diamonds {
+    background-image: url('../images/diamonds.png');
+}
+.bg#barbie {
+    background-image: url('../images/barbie.png');
 }
 .border-container {
     background-color:white;
@@ -253,58 +186,44 @@ body.barbie {
 }
 .vline {
     border-left: .5vw solid black;
-    height:200px;
-    position:relative;
-    left:50%;
+    height: 200px;
+    position: relative;
+    left: 50%;
     margin-left: -3px;
-}
-.container div {
-    background-color: rgba(255, 255, 255, 0.7);
-    height: auto;
-    margin: auto;
-    border-radius: 2em;
-    margin-top: 4em;
-    box-shadow: 5px 5px 10px #7b7b7b;
 }
 .title {
     padding: 50px;
 }
 .title.open {
-    padding-top:100px;
+    padding-top: 100px;
 }
 div {
     text-align: center;
     margin-top: 1em;
-    font-family: 'Roboto';
-    font-weight: 100;
+    font: 100 1em 'Roboto';
     text-transform: uppercase;
-    font-size: 1em;
     letter-spacing: 1px;
 }
 .gs {
-    font-family: 'glinster';
-    font-size: 10em;
-    letter-spacing:-.07em;
+    font: 10em 'glinster';
+    letter-spacing: -.07em;
     padding: .5em 0 0 0;
     margin: 0 0;
     text-transform: lowercase;
 }
 .gs#date {
-    font-size: 8em;
+    font-size: 6em;
     letter-spacing: 0;
 }
 p#gl {
-    font-family: 'glitten';
-    font-size: 2em;
+    font: 2em 'glitten';
     margin-bottom: 1.5em;
 }
 .tan {
-    padding:0 0;
-    margin:0 0;
-    font-family: 'tan';
-    font-size: 10em;
-    letter-spacing:-.1em;
-    line-height: .75em;
+    padding: 0 0;
+    margin: 0 0;
+    font: 10em/.75em 'tan';
+    letter-spacing: -.1em;
 }
 .tan#nicole {
     font-size: 8em;
@@ -317,30 +236,29 @@ p#gl {
     display: inline-block;
     margin: 10px 5px;
 }
-#crew {
+img {
     display: block;
     padding: 10px;
-    width: 300px;
-    height:350px;
     filter: drop-shadow(5px 5px 5px #535353);
-}
-#outfits {
     width: 300px;
+}
+img#crew {
+    height:350px;
+}
+img#outfits {
     height: 300px;
 }
 figure {
     display:inline-block;
 }
 figcaption#title {
-    font-family: 'tan';
+    font: 4em 'tan';
     letter-spacing: -.1em;
     text-transform: uppercase;
-    font-size: 4em;
 }
 figcaption#sub {
-    font-family: 'glitten';
+    font: 1.5em 'glitten';
     text-transform: uppercase;
-    font-size: 1.5em;
 }
 footer {
     text-align: center;
@@ -352,9 +270,8 @@ footer {
 @media only screen and (max-width:1000px) {
     html, body {
         overflow-x:hidden !important;
-        background-attachment: scroll !important;
     }
-    #crew, #outfits {
+    img#crew, img#outfits {
         width:100% !important;
     }
     div {
@@ -367,7 +284,7 @@ footer {
     nav {
         width: 100%;
         padding: 70px 0 15px;
-        float:right;
+        float: right;
     }
     nav ul {
         display: none;
@@ -378,7 +295,7 @@ footer {
     nav ul li a {
         padding: 15px;
         line-height: 20px;
-        font-size:12px !important;
+        font-size: 12px !important;
     }
     nav ul li ul li a {
         padding-left: 50px;
