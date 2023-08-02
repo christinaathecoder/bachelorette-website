@@ -199,7 +199,7 @@ body.home {
     overflow-x:hidden;
     margin:0;
 }
-body.crew {
+/* body.crew {
     background-image: url('../images/crew.png');
     background-size: cover;
     background-repeat: repeat-y;
@@ -208,6 +208,16 @@ body.crew {
     height: 100vh;
     overflow-x:hidden;
     margin:0;
+} */
+#background {
+    z-index: -1;
+    background-image: url('../images/crew.png');
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    margin:-10px !important;
 }
 body.travel {
     background: url('../images/travel.png') center center fixed no-repeat;
