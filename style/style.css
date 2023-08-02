@@ -273,6 +273,7 @@ footer {
     }
     img#crew, img#outfits {
         width:100% !important;
+        height: 100%;
     }
     div {
         font-size: 10px;
