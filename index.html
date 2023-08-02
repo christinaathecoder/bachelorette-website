@@ -9,31 +9,47 @@
 </head>
 <html>
 <body class="home">
-    <div class="navbar" id="nav">
-        <a href="index.html" class="active">home</a>
-        <a href="crew.html">crew</a>
-        <a href="construction.html">travel</a>
-        <a href="itinerary">itinerary</a>
-        <a href="outfits">outfits</a>
-        <a href="construction.html">activities</a>
-        <a href="construction.html">cost</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div>
-    <div>
-        <p id="gs">get ready</p>
+    <section class="navigation">
+        <div class="nav-container">
+            <nav>
+                <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">home</a></li>
+                    <li><a href="crew.html">crew</a></li>
+                    <li><a href="construction.html">travel</a></li>
+                    <li><a href="#">itinerary</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="construction.html">thursday</a></li>
+                            <li><a href="construction.html">friday</a></li>
+                            <li><a href="construction.html">saturday</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#!">outfits</a>
+                        <ul class="nav-dropdown">
+                            <li><a href="outfits/miami-vice.html">miami vice</a></li>
+                            <li><a href="outfits/diamonds.html">diamonds r 4ever</a></li>
+                            <li><a href="outfits/barbie.html">barbie's world</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="construction.html">cost</a>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <div class="title">
+        <p class="gs">get ready</p>
         <div class="vline"></div>
         <p id="gl">FOR THE</p>
-        <p id="tan">BACHEL<BR>ORETTE</p>
+        <p class="tan">BACHEL<BR>ORETTE</p>
         <p id="gl">OF</p>
-        <p id="tan" style="font-size:9vw; letter-spacing:-.75vw;">NICOLE</p>
+        <p class="tan" id="nicole">NICOLE</p>
         <BR><BR><BR><BR><BR>
-        <p id="gs" style="font-size:8vw">9.7.2023 - 9.10.2023</p>
+        <p class="gs" id="date">9.7.2023 - 9.10.2023</p>
     </div>
     <footer class="default">
         <h6>copyright &copy; 2023 christinaathecoder</h6>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
