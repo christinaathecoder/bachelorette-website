@@ -219,6 +219,8 @@ div {
     font: 100 1em/2em 'Roboto';
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+.div-trans {
     margin-left: 50px;
     margin-right: 50px;
 }
