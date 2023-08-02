@@ -21,8 +21,8 @@ body {
     background-color: none;
 }
 .nav-container {
-  max-width: 100%;
-  margin: 0 auto;
+    max-width: 100%;
+    margin: 0 auto;
 }
 hr {
     border: none;
@@ -215,6 +215,7 @@ h6 {
 }
 div {
     text-align: center;
+    margin: auto;
     margin-top: 1em;
     font: 100 1em/2em 'Roboto';
     text-transform: uppercase;
