@@ -241,11 +241,6 @@ img {
     padding: 10px;
     filter: drop-shadow(5px 5px 5px #535353);
     width: 300px;
-}
-img#crew {
-    height:350px;
-}
-img#outfits {
     height: 300px;
 }
 figure {
@@ -271,9 +266,8 @@ footer {
     html, body {
         overflow-x:hidden !important;
     }
-    img#crew, img#outfits {
-        width:100% !important;
-        height: 100%;
+    img {
+        width: 100% !important;
     }
     div {
         font-size: 10px;
