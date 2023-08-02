@@ -340,10 +340,10 @@ footer {
     height: 100px;       
 }
 @media only screen and (max-width:1000px) {
-    html, body {
+    /* html, body {
         overflow-x:hidden !important;
         max-width: 100% !important;
-    }
+    } */
     #crew, #outfits {
         width:100% !important;
     }
