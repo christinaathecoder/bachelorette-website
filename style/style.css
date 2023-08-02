@@ -304,7 +304,7 @@ p#gl {
     display: inline-block;
     margin: 10px 5px;
 }
-/* #crew {
+#crew {
     display: block;
     padding: 10px;
     width: 300px;
@@ -314,7 +314,7 @@ p#gl {
 #outfits {
     width: 300px;
     height: 300px;
-} */
+}
 figure {
     display:inline-block;
 }
@@ -340,12 +340,11 @@ footer {
     html, body {
         overflow-x:hidden !important;
         max-width: 100% !important;
-        background-size: cover !important;
+        background-size: 100% !important;
     }
-    /*#crew, #outfits {
+    #crew, #outfits {
         width:100% !important;
-        height: 325px;
-    }*/
+    }
     div {
         font-size: 10px;
         letter-spacing: 3px;
