@@ -76,8 +76,8 @@ nav ul li a, nav ul li a:visited {
     color: black;
     text-decoration: none;
     font-family: 'roboto';
-    font-size: 1vw;
-    letter-spacing: .5vw;
+    font-size: .75em;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
@@ -151,13 +151,13 @@ nav ul li ul li a {
   }
 h1 {
     font-family: 'tan';
-    font-size: 12vw;
+    font-size: 10em;
     letter-spacing: -.1em;
     text-align: center;
 }
 h2 {
     font-family: 'glinster';
-    font-size: 11.5vw;
+    font-size: 12em;
     text-transform: lowercase;
     text-align: center;
     letter-spacing: -.03em;
@@ -166,7 +166,7 @@ h2 {
 }
 h3 {
     font-family: 'tan';
-    font-size: 12vw;
+    font-size: 12em;
     letter-spacing: -.08em;
     padding:0;
     margin:.1em;
@@ -177,20 +177,20 @@ h4 {
     font-family: 'Roboto';
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 2vw;
-    letter-spacing: .75vw;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
 h5 {
     font-family: 'glitten';
-    font-size: 3vw;
+    font-size: 3em;
     letter-spacing: normal;
 }
 h6 {
     font-family: 'Roboto';
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 1vw;
-    letter-spacing: .75vw;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
 body.home {
     background: url('../images/home.png') center center fixed no-repeat;
@@ -235,8 +235,8 @@ body.barbie {
 }
 .border-container {
     background-color:white;
-    margin: 5vh 10vw;
-    padding: 3vw;
+    margin: 5em 10em;
+    padding: 3em;
 }
 .vline {
     border-left: .5vw solid black;
@@ -261,41 +261,41 @@ body.barbie {
 }
 div {
     text-align: center;
-    margin-top: 1vh;
+    margin-top: 1em;
     font-family: 'Roboto';
     font-weight: 100;
     text-transform: uppercase;
-    font-size: 1vw;
-    letter-spacing: .4vw;
+    font-size: 1em;
+    letter-spacing: 1px;
 }
 .gs {
     font-family: 'glinster';
-    font-size: 10vw;
+    font-size: 10em;
     letter-spacing:-.07em;
     padding: .5em 0 0 0;
     margin: 0 0;
     text-transform: lowercase;
 }
 .gs#date {
-    font-size: 8vw;
+    font-size: 8em;
     letter-spacing: 0;
 }
 p#gl {
     font-family: 'glitten';
-    font-size: 2vw;
+    font-size: 2em;
     margin-bottom: 1.5em;
 }
 .tan {
     padding:0 0;
     margin:0 0;
     font-family: 'tan';
-    font-size: 15vw;
-    letter-spacing:-1.75vw;
+    font-size: 15em;
+    letter-spacing:-1.75em;
     line-height: .75em;
 }
 .tan#nicole {
-    font-size: 10vw;
-    letter-spacing: -1vw;
+    font-size: 10em;
+    letter-spacing: -1em;
 }
 .dot {
     height: 80px;
@@ -328,14 +328,14 @@ figcaption#title {
 figcaption#sub {
     font-family: 'glitten';
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 footer {
     text-align: center;
     position: relative;
     bottom: 0;
-    width: 100vw;
-    height: 10vh;       
+    width: 100%;
+    height: 100px;       
 }
 @media only screen and (max-width:1000px) {
     html, body {
