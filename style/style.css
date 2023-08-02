@@ -220,6 +220,11 @@ body.miami-vice {
     background-size: cover;
     overflow-x:hidden;
 }
+body.diamonds {
+    background: url('../images/diamonds.png') center center fixed no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
 .border-container {
     background-color:white;
     margin: 5vh 10vw;
@@ -303,8 +308,8 @@ img {
     filter: drop-shadow(5px 5px 5px #535353);
 }
 #outfits {
-    width: 250px;
-    height:325px;
+    width: 300px;
+    height: 300px;
 }
 figure {
     display:inline-block;
