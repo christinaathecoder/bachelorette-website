@@ -94,6 +94,9 @@ nav ul li ul li a {
     padding: 15px;
     line-height: 20px;
 }
+.active {
+    font-weight:700;
+}
 .nav-dropdown {
   position: absolute;
   display: none;
@@ -225,13 +228,15 @@ body.diamonds {
     background-size: cover;
     overflow-x:hidden;
 }
+body.barbie {
+    background: url('../images/barbie.png') center center fixed no-repeat;
+    background-size: cover;
+    overflow-x:hidden;
+}
 .border-container {
     background-color:white;
     margin: 5vh 10vw;
     padding: 3vw;
-}
-.container {
-    background-color: rgb(232, 231, 229);
 }
 .vline {
     border-left: .5vw solid black;
@@ -333,8 +338,12 @@ footer {
     height: 10vh;       
 }
 @media only screen and (max-width:1000px) {
-    body {
+    html, body {
         overflow-x:hidden !important;
+    }
+    img {
+        width:100% !important;
+        height: 325px;
     }
     div {
         font-size: 10px;
@@ -374,7 +383,7 @@ footer {
         padding: 5px 10px;
     }
     h2 {
-        font-size:70px;
+        font-size: 60px;
         letter-spacing: -5px;
     }
     h3 {
