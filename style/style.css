@@ -15,6 +15,7 @@ body {
     margin-bottom: 0;
     overflow-y: auto;
     overflow-x:hidden;
+    background-color: white;
 }
 .navigation {
     height: 70px;
@@ -27,7 +28,7 @@ body {
 hr {
     border: none;
     border-top: 2px solid black;
-    width: 75%;
+    width: 100%;
 }
 nav {
     float: none;
@@ -264,6 +265,11 @@ img {
     width: 300px;
     height: 300px;
 }
+img#sched {
+    filter: none;
+    width: 100%;
+    height: 100%;
+}
 img#icons {
     filter: none;
     width: 50px;
@@ -287,6 +293,35 @@ footer {
     bottom: 0;
     width: 100%;
     height: 100px;       
+}
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+}
+  
+.left {
+    width: 25%;
+    text-align: left;
+}
+  
+.right {
+    width: 75%;
+    text-align: right;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+a#dc {
+    text-decoration: none;
+    color: #FB88A6;
+}
+a#dc:hover {
+    font-style: italic;
+    color:#ffccd9;
 }
 @media only screen and (max-width:1000px) {
     html, body {
